@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ Agent Integrity Protocol
 
-## Getting Started
+A full-stack AI Agent Integrity Dashboard built with Next.js, MongoDB, MetaMask, and Solidity smart contracts. This project enables secure AI agent registration, execution monitoring, and blockchain-based verification.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🔐 MetaMask Wallet Integration
+- ⛓️ Smart Contract Interaction (Solidity)
+- 🤖 AI Agent Registration
+- 📊 Interactive Dashboard
+- 🗄️ MongoDB Atlas Integration
+- 📈 Agent Statistics
+- ⚡ Next.js API Routes
+- 🎨 Modern Responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- MongoDB Atlas
+- Mongoose
+- Ethers.js
+- MetaMask
+
+---
+
+## 📂 Project Structure
+app/
+components/
+hooks/
+lib/
+models/
+public/
+styles/
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Sanaya77/agent-integrity-protocol.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env.local`
+
+```env
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_secret
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
+🔗 Blockchain Integration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This frontend communicates with the Agent Integrity Protocol smart contract using:
 
-## Learn More
+MetaMask
+Ethers.js
+Hardhat Local Network
+📸 Features
+Register AI Agent
+Connect Wallet
+Dashboard Analytics
+Blockchain Transaction Signing
+MongoDB Data Storage
+🌱 Future Improvements
+Execution Proof Storage
+Dispute Resolution
+Trust Score Updates
+IPFS Integration
+Sepolia Testnet Deployment
 
-To learn more about Next.js, take a look at the following resources:
+## Architecture and Workflow
+![Architecture](images/aip.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👩‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Sanaya Y. Kulkarni
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub:
+https://github.com/Sanaya77
